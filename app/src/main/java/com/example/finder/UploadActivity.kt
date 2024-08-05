@@ -86,8 +86,7 @@ class UploadActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_setting -> {
-                    val settingActivity = Intent(this, SettingActivity::class.java)
-                    startActivity(settingActivity)
+                    Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.navigation_profile -> {
@@ -98,6 +97,7 @@ class UploadActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
     }
 
     private fun showDatePickerDialog() {

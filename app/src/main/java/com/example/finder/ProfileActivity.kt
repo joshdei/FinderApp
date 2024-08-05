@@ -64,20 +64,23 @@ class ProfileActivity : AppCompatActivity() {
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-                    startActivity(Intent(this, MainActivity::class.java))
+                    val homeActivity = Intent(this, MainActivity::class.java)
+                    startActivity(homeActivity)
                     true
                 }
                 R.id.navigation_setting -> {
-                    startActivity(Intent(this, SettingActivity::class.java))
+                    Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.navigation_profile -> {
-                    startActivity(Intent(this, ProfileActivity::class.java))
+                    val profileActivity = Intent(this, ProfileActivity::class.java)
+                    startActivity(profileActivity)
                     true
                 }
                 else -> false
             }
         }
+
     }
 
     private fun getUserDp() {
