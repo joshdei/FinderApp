@@ -36,4 +36,4 @@ Finder is an Android application designed to help users find roommates and accom
 ### Installation
 
 1. **Clone the repository**:
-   ```bash https://github.com/joshdei/FinderApp.git
+   https://github.com/joshdei/FinderApp.git
