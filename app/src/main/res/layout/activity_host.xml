@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:background="@drawable/hux"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Become a Host"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FF7F7F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_filed"
+            android:ems="10"
+            android:hint="Nin"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:shadowColor="#FF7F7F"
+            android:textColorHint="#FF7F7F" />
+
+        <Spinner
+            android:id="@+id/my_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_filed"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/btnCreate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Become"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemTextColor="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/menu_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

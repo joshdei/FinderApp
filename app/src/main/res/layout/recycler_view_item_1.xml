@@ -1,0 +1,9 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageView1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    app:circularflow_defaultRadius="1dp"
+    tools:src="@tools:sample/avatars" />

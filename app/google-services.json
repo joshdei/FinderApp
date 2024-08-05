@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "673754051297",
+    "firebase_url": "https://chat-75bea-default-rtdb.firebaseio.com",
+    "project_id": "chat-75bea",
+    "storage_bucket": "chat-75bea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:f483d53cb0d8fb58f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.broker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:f83296d0d88cb77af3bda0",
+        "android_client_info": {
+          "package_name": "com.example.expinvest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:ae7c5884d4c6ab43f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.finder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:68cb206c98b0f526f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.maltx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:d609962ba70af659f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.mfeed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:280f3f27d8b3d03ff3bda0",
+        "android_client_info": {
+          "package_name": "com.example.romat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:ac077a544e584d38f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.roomate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673754051297:android:84473843c34d4d26f3bda0",
+        "android_client_info": {
+          "package_name": "com.example.swaphub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOw66UNs1uBwcj6N7ZZ73deMiS-DC-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
